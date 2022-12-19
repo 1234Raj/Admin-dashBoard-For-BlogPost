@@ -1,0 +1,128 @@
+/* Dashboard Page */
+.bg2{
+    display: block;
+    background-color: #121f3d;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+  }
+  .navbar1{
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+  }
+  .navbar1{
+    padding: 15px 0;
+    background: hsl(215deg 13% 89%);
+  }
+  .navbar1 .head-navbar1{
+    display: flex;
+     
+  }
+  .navbar1 .logo  a{
+    color:#121f3d;
+    font-size: 3.5vmin;
+    font-weight: 600;
+    margin-left: 60px;
+  }
+  
+  .navbar1 .head-navbar1 .menu{
+  justify-content: left;
+  }
+  .navbar1 .head-navbar1 .menu li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 10px;
+    color:#121f3d;
+    font-size: 2vmin;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  .navbar1 .head-navbar1 .menu li:hover{
+    color: crimson;
+  }
+  .bg2 .container input[type="Search"]{
+    border-style: none;
+     padding: 10px 20px;
+     font-size: 20px;
+     font-weight: 500;
+     border: none;
+     box-shadow: none;
+  border-bottom: 3px solid black;
+  }
+  /* User Blogpost */
+  /* Home Page */
+.bg3{
+  background-color: #121f3d;
+   
+}
+.layout3  {
+  display: block;
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 100%;
+}
+.Example3 {
+  display: flex;
+  align-items: center;
+  padding: 5rem 2rem;
+  flex-direction: column;
+  text-align: center;
+}
+.Example3 h2{
+  margin-top: 50px;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1;
+  color:white ;
+  margin-bottom: 20px;
+}
+ 
+.cards3{
+width: 100%;
+height: 350px;
+  display: inline-flex;
+ flex-direction:row;
+ padding: 10px 10px;
+ background: hsl(215deg 13% 89%);
+ margin-bottom: 10px;
+ margin-right: 10px;
+ margin-left: 10px;
+ 
+
+}
+.cards3 img{
+   
+  width: 350px;
+  height: 320px;
+  cursor: pointer;
+}
+.cards3 .Name-Price h5{
+margin-top: 5px;
+}
+.cards3 .Name-Price p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.cards3 img:focus{
+  width: 220px;
+}
+.cards3  button{
+  background:#121f3d;
+  color: #fff;
+  padding: 5px 15px;
+  border-color: #fff;
+  margin-top: 5px;
+  cursor: pointer;
+
+}
+.cards3  button:hover{
+  background-color: #fff;
+  border-color: #121f3d;
+  color: #121f3d;
+}

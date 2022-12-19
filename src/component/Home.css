@@ -1,0 +1,65 @@
+/* Home Page */
+.bg{
+    background-color: white;
+     
+  }
+  .layout  {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+  }
+  .Example {
+    display: flex;
+    align-items: center;
+    padding: 5rem 2rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .Example h2{
+    margin-top: 50px;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1;
+    color:white ;
+    margin-bottom: 20px;
+  }
+   
+  .cards{
+  width: 100%;
+  height: 400px;
+    display: inline-flex;
+   flex-direction:row;
+   padding: 10px 10px;
+   background: rgba(220, 215, 215, 0.908);
+   margin-bottom: 10px;
+   margin-right: 10px;
+  
+   
+  
+  }
+  .cards img{
+    max-width: 100%;
+    width: 500px;
+    cursor: pointer;
+    margin-right: 200px;
+  }
+   
+  .cards .Name-Price p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .cards img:focus{
+    width: 220px;
+  }
+  .cards .AddCart button{
+    background:#121f3d;
+    color: #fff;
+    padding: 5px 15px;
+    border-color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+  
+  }

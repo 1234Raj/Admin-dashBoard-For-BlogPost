@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+  }
+  .navbar{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+  }
+  .navbar{
+    padding: 15px 0;
+    background: rgb(4, 49, 126);
+  }
+  .navbar .head-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar .logo a{
+    color:white;
+    font-size: 3.5vmin;
+    font-weight: 600;
+    margin-left: 60px;
+  }
+  
+  .navbar .menu{
+    margin-right: 50px;
+  }
+  .navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    
+  }
+  .navbar .menu li a{
+    padding-top: 10px;
+    display: block;
+    color:white;
+    font-size: 2vmin;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+  }
+  .navbar .menu li a:hover{
+    color: crimson;
+  }
+
+
+/* Landing Page */
+.bg1{
+    display: block;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+  }
+  .page{
+     display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+    
+  }
+   .page h1{
+      padding-top: 150px;
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center;
+  color: rgb(18, 17, 17);
+  }
+   .page h1 span{
+    color: #dc143c;
+  }
+  .page .About{
+    font-size: 30px;
+    margin-top: 100px;
+    color: rgb(5, 5, 5);
+    display: flex;
+   flex-direction: row;
+  }
+  .page .About p h2{
+    font-weight: 500;
+  }
+  .page .About p{
+    margin-top: 100px;
+      margin-right: 80px;
+      margin-left: 150px;
+      font-weight: 300;
+     
+  }
+  .page .About img{
+    background:  transparent;
+    width:450px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  .page .button{
+    margin-top: 50px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   
+  }
+  .page .button button{
+    padding: 15px 70px;
+    border-radius: 40px;
+    font-size: 25px;
+  }
+  

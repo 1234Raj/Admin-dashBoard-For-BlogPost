@@ -1,0 +1,17 @@
+.navbar .navbar-brand{
+    margin-left: 60px;
+    color: #fafafb;
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-link {
+     color: #fbfbfc;
+     font-size: 1.5rem;
+    
+  }
+  .navbar .btn{
+    margin-right: 60px;
+    font-size: 1.4rem;
+    border-color: #121f3d;
+  }
